@@ -1,0 +1,23 @@
+{
+  "schema": "dev.woia.provider-manifest/v1",
+  "version": "0.5.0",
+  "authoring_profile": "thin",
+  "department": "software",
+  "capability": "deployment",
+  "skill": "deployment",
+  "source_lineage": {
+    "repository": "Turpial-AI-Academy/deployment-agent-plugin",
+    "version": "1.0.1",
+    "commit": "0b503622044ddfdc432dd766b2016a6fe1062b1e"
+  },
+  "migrated_portable_paths": [
+    "skills/deployment/SKILL.md",
+    "skills/deployment/assets/README.md",
+    "skills/deployment/assets/deployment-receipt.example.json",
+    "skills/deployment/references/EVIDENCE.md",
+    "skills/deployment/references/OPERATING-CONTRACT.md",
+    "skills/deployment/references/README.md",
+    "skills/deployment/references/TARGETS-AND-STRATEGIES.md",
+    "skills/deployment/references/VALIDATION-AND-RECOVERY.md"
+  ]
+}

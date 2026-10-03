@@ -1,0 +1,19 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "woia-software-deployment",
+  "version": "0.5.0",
+  "description": "Reusable promotion and deployment capability for approved software release candidates.",
+  "author": {
+    "name": "Turpial AI Academy",
+    "url": "https://github.com/Turpial-AI-Academy"
+  },
+  "homepage": "https://github.com/Turpial-AI-Academy/woia-software-deployment-agent-plugin",
+  "repository": "https://github.com/Turpial-AI-Academy/woia-software-deployment-agent-plugin",
+  "license": "MIT",
+  "keywords": [
+    "agent-plugin",
+    "woia",
+    "software",
+    "deployment"
+  ]
+}

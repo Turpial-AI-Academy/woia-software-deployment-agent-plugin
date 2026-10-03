@@ -1,0 +1,32 @@
+{
+  "format": "deployment-receipt/v1",
+  "status": "VERIFIED",
+  "candidate": {
+    "commit": "0123456789abcdef0123456789abcdef01234567",
+    "artifact": {
+      "name": "application-v1.0.0.zip",
+      "digest": "sha256:0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef"
+    }
+  },
+  "target": {
+    "environment": "production",
+    "mechanism": "repository-defined promotion",
+    "deployment_id": "deployment-example-001",
+    "deployed_revision": "0123456789abcdef0123456789abcdef01234567"
+  },
+  "authorization": {
+    "required": true,
+    "confirmed": true,
+    "reference": "change-example-001"
+  },
+  "verification": {
+    "smoke": "passed",
+    "observation": "passed"
+  },
+  "recovery": {
+    "known": true,
+    "reference": "docs/runbooks/deployment.md",
+    "previous_revision": "fedcba9876543210fedcba9876543210fedcba98"
+  },
+  "remaining_risks": []
+}
