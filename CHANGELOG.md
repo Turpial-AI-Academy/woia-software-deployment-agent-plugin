@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+- Restore the canonical MIT license text from the original provider lineage.
+
 - Restore capability-specific domain regressions for centralized thin certification.
 
 ## 0.5.0 - 2026-10-03
