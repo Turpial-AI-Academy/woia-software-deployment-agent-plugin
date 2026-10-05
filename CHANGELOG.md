@@ -1,5 +1,9 @@
 # Changelog
 
+## Unreleased
+
+- Restore capability-specific domain regressions for centralized thin certification.
+
 ## 0.5.0 - 2026-10-03
 
 - Establish WOIA v0.5.0 provider lineage for `deployment`.
