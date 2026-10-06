@@ -5,6 +5,7 @@
 - Restore the canonical MIT license text from the original provider lineage.
 
 - Restore capability-specific domain regressions for centralized thin certification.
+- Preserve regression coverage for the repository's real deployment mechanism and provider-neutral operation.
 
 ## 0.5.0 - 2026-10-03
 

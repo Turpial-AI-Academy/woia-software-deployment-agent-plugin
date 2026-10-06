@@ -1,5 +1,5 @@
 import assert from "node:assert/strict";
-import { access, readFile } from "node:fs/promises";
+import { readFile } from "node:fs/promises";
 import path from "node:path";
 import test from "node:test";
 import { fileURLToPath } from "node:url";
@@ -12,6 +12,12 @@ const ASSET = (...parts) => path.join(ROOT, "skills", "deployment", "assets", ..
 async function text(file) {
   return readFile(file, "utf8");
 }
+
+test("deployment uses the real repository mechanism without imposing a provider", async () => {
+  const skill = await text(SKILL);
+  assert.match(skill, /repository's real mechanism/i);
+  assert.match(skill, /Do not impose a provider/i);
+});
 
 test("success is bound to exact candidate identity and deployed target identity", async () => {
   const operating = await text(REF("OPERATING-CONTRACT.md"));
